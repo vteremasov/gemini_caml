@@ -1,0 +1,5 @@
+(executable
+ (public_name gemini_caml)
+ (name main)
+ (libraries gemini_caml tls cohttp-lwt-unix tls-lwt x509)
+ (preprocess (pps lwt_ppx)))

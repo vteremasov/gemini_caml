@@ -1,0 +1,39 @@
+# Dune build artifacts
+_build/
+*.install
+*.cmt
+*.cmti
+*.cmx
+*.cmxa
+*.cmi
+*.o
+*.a
+*.annot
+
+# Opam local switch
+_opam/
+.opam-switch/
+
+# Merlin files (editor hints for OCaml)
+.merlin
+.ocamlformat
+
+# Neovim swap, backup, and undo files
+*.swp
+*.swo
+*.un~
+*.bak
+
+# Editor config files (optional)
+.vscode/
+.idea/
+*.kate-swp
+
+# MacOS metadata
+.DS_Store
+
+# Other temp files
+*.log
+*.lock
+*.tmp
+
